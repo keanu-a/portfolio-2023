@@ -2,11 +2,11 @@ import React from 'react';
 
 import ProjectCard from '../components/ProjectCard';
 
-import omnifood1 from '../assets/omnifood-landing-page-1.png';
-import tagalogLearning from '../assets/tagalog-learning-page-1.png';
+import omnifood from '../assets/omnifood.png';
+import tagalogLearning from '../assets/tagalog-learning.png';
 import pigGame from '../assets/pig-game.png';
 import pomodoro from '../assets/pomodoro.png';
-import routineTracker from '../assets/simple-routine-track-2.png';
+import routineTracker from '../assets/routine-tracker.png';
 
 import Footer from '../components/Footer';
 
@@ -31,7 +31,7 @@ const projectInfo = [
     title: 'Omnifood',
     url: '/omnifood',
     year: 2022,
-    picture: omnifood1,
+    picture: omnifood,
     altText: 'Omnifood preview',
     stack: ['HTML', 'CSS', 'JavaScript'],
   },

@@ -2,12 +2,17 @@ import React from 'react';
 
 import ProjectHeaderImage from '../../components/ProjectHeaderImage';
 
+import tagalogLearning from '../../assets/tagalog-learning.png';
+
 const TagalogLearning = () => {
   return (
-    <main className="h-full w-[80%] flex flex-col gap-16 mt-16 m-auto">
+    <main className="h-full w-[80%] flex flex-col gap-16 mt-16 m-auto mb-8">
       <div className="text-4xl text-red">Tagalog Learning</div>
 
-      <ProjectHeaderImage />
+      <ProjectHeaderImage
+        image={tagalogLearning}
+        altText="Tagalog Learning preview picture"
+      />
 
       <p className="mt-5">
         I started this project when I made it a goal in 2023 to learn Tagalog,
