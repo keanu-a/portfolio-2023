@@ -17,7 +17,6 @@ const projectInfo = [
     year: 2023,
     picture: tagalogLearning,
     altText: 'Tagalog Learning preview',
-    stack: ['React', 'Express', 'Node', 'MongoDB'],
   },
   {
     title: 'Routine Tracker',
@@ -25,7 +24,6 @@ const projectInfo = [
     year: 2023,
     picture: routineTracker,
     altText: 'Routine Tracker preview',
-    stack: ['React', 'CSS'],
   },
   {
     title: 'Omnifood',
@@ -33,7 +31,6 @@ const projectInfo = [
     year: 2022,
     picture: omnifood,
     altText: 'Omnifood preview',
-    stack: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Pig Game',
@@ -41,7 +38,6 @@ const projectInfo = [
     year: 2022,
     picture: pigGame,
     altText: 'Pig Game preview',
-    stack: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Pomodoro Timer',
@@ -49,7 +45,6 @@ const projectInfo = [
     year: 2021,
     picture: pomodoro,
     altText: 'Pomodoro preview',
-    stack: ['Python'],
   },
 ];
 
@@ -79,7 +74,6 @@ const Home = () => {
                   year={project.year}
                   picture={project.picture}
                   altText={project.altText}
-                  stack={project.stack}
                 />
               </div>
             ))}

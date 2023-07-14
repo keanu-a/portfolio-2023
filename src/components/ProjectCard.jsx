@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const ProjectCard = ({ title, url, year, picture, altText, stack }) => {
+const ProjectCard = ({ title, url, year, picture, altText }) => {
   const navigate = useNavigate();
 
   const handleOnClick = () => {
