@@ -37,7 +37,7 @@ const projectInfo = [
   },
   {
     title: 'Pig Game',
-    url: '/piggame',
+    url: '/pig-game',
     year: 2022,
     picture: pigGame,
     altText: 'Pig Game preview',
@@ -57,7 +57,7 @@ const Home = () => {
   return (
     <>
       <main className="h-full w-[96%] flex mt-16 m-auto">
-        <div className="flex flex-col justify-center mb-60 w-full">
+        <div className="flex flex-col justify-center mb-20 w-full">
           <div className="text-5xl text-red mb-8 max-sm:text-center">
             I'm Keanu
           </div>

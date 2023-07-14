@@ -4,7 +4,12 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Experience from './pages/Experience';
-import Project from './pages/Project';
+
+import TagalogLearning from './pages/projectPages/TagalogLearning';
+import RoutineTracker from './pages/projectPages/RoutineTracker';
+import Omnifood from './pages/projectPages/Omnifood';
+import PigGame from './pages/projectPages/PigGame';
+import Pomodoro from './pages/projectPages/Pomodoro';
 
 import { AnimatePresence } from 'framer-motion';
 
@@ -20,7 +25,11 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
-            <Route path="/:projectName" element={<Project />} />
+            <Route path="/tagalog-learning" element={<TagalogLearning />} />
+            <Route path="/routine-tracker" element={<RoutineTracker />} />
+            <Route path="/omnifood" element={<Omnifood />} />
+            <Route path="/pig-game" element={<PigGame />} />
+            <Route path="/pomodoro" element={<Pomodoro />} />
             <Route path="/about" element={<About />} />
             <Route path="/experience" element={<Experience />} />
           </Routes>
