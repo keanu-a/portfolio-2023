@@ -17,17 +17,20 @@ const Omnifood = () => {
         projectName="Omnifood"
       />
 
-      <p>
-        This project was actually the final project of a JavaScript course I
-        took. It taught me how to make beautiful and responsive web pages. This
-        project was to make a landing page for a mock company called "Omnifood"
-        and they were a meal delivery service. I learned the basics of
-        JavaScript and the necessary CSS to make responsive designs with all
-        it's components.
-      </p>
+      <div>
+        <h3 className="text-2xl">Reason for Creating</h3>
+        <p>
+          This project was actually the final project of a JavaScript course
+          that I took. I really wanted to learn web development so I bought a
+          course that taught me mostly everything I need to know with
+          JavaScript. It taught me how to make beautiful and responsive web
+          pages. This project was to make a landing page for a mock company
+          called "Omnifood" and they were a meal delivery service.
+        </p>
+      </div>
 
       <div>
-        <div className="text-2xl">Tech Stack</div>
+        <h3 className="text-2xl">Tech Stack</h3>
         <ul>
           <li>JavaScript, HTML, CSS</li>
         </ul>

@@ -14,16 +14,20 @@ const PigGame = () => {
         altText="Pig Game app preview picture"
       />
 
-      <p>
-        This is a project I did while taking a JavaScript course. Pig Game is
-        meant to be played by two players, and whoever ends with the most points
-        wins. There is a catch though, if a player rolls a 1, then your points
-        are reset. In each turn, a player has a turn to roll the dice to
-        increase their points, or hold and pass the turn to the next player.
-      </p>
+      <div>
+        <h3 className="text-2xl">Overview</h3>
+        <p>
+          This is a project I did while taking a JavaScript course. Pig Game is
+          meant to be played by two players, and whoever ends with the most
+          points wins. There is a catch though, if a player rolls a 1, then your
+          points are reset. In each turn, a player has a turn to roll the dice
+          to increase their points, or hold and pass the turn to the next
+          player.
+        </p>
+      </div>
 
       <div>
-        <div className="text-2xl">Tech Stack</div>
+        <h3 className="text-2xl">Tech Stack</h3>
         <ul>
           <li>JavaScript, HTML, CSS</li>
         </ul>

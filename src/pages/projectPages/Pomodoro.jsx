@@ -14,17 +14,19 @@ const Pomodoro = () => {
         altText="Pomodoro Timer app preview picture"
       />
 
-      <p>
-        This is a pomodoro timer made with python using the Tkinter library. The
-        pomodoro timer is supposed to be a method to have efficient studying or
-        working. The way the timer works is that a user works for 25 minutes
-        then has a 5 minute break. This is repeated 3 or 4 times. The program is
-        written so it can be easily changed to 45 minutes of working time or 15
-        minute break times.
-      </p>
+      <div>
+        <h3 className="text-2xl">Overview</h3>
+        <p>
+          This is a pomodoro timer made with python using the Tkinter library.
+          The pomodoro timer is supposed to be a method to have efficient
+          studying or working. The way the timer works is that a user works for
+          25 minutes then has a 5 minute break. This is repeated 3 or 4 times to
+          create a full efficient method of studying/working.
+        </p>
+      </div>
 
       <div>
-        <div className="text-2xl">Tech Stack</div>
+        <h3 className="text-2xl">Tech Stack</h3>
         <ul>
           <li>Python, Tkinter Library</li>
         </ul>

@@ -20,22 +20,36 @@ const RoutineTracker = () => {
         projectName="Routine Tracker"
       />
 
-      <p>
-        I decided to create this small application because I caught myself not
-        completing my routines every week. I would simply just do my routines
-        based on when I remember but most of the time not remember when the last
-        time I did it was. I made a ToDo list a couple years ago, so I knew this
-        would be something I can create quickly.
-      </p>
-
-      <p>
-        Although this can be used as a To-Do list, it is supposed to be used to
-        track routine actions and repeat them every couple days. All actions
-        added will be kept in local storage for users.
-      </p>
+      <div>
+        <h3 className="text-2xl">Reason for Creating</h3>
+        <p>
+          I made this application because I was in dire need to keep track of my
+          routine. I have a pretty consistent routine every week, but I would
+          constantly just do things from the top of my head. With this app, I
+          can visually see and keep track of what I need to do in a day still.
+        </p>
+        <p>
+          A couple years ago I made a To-Do app, so this is just an upgraded
+          version. Although shouldn't be used as a To Do app since actions
+          should be repeated over time.
+        </p>
+      </div>
 
       <div>
-        <div className="text-2xl">Tech Stack</div>
+        <h3 className="text-2xl">Development</h3>
+        <p>
+          I wanted actions to be saved by users that used this application, but
+          I didn't want to use a database as I thought that would be overkill.
+          All actions added and deleted to a user's routine will be saved to
+          their local storage. The reason I chose to use local storage is
+          because there is no sensitive data be saved, or at least there
+          shouldn't be.
+        </p>
+        <p>I deployed this app using Vercel.</p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl">Tech Stack</h3>
         <ul>
           <li>React, CSS</li>
         </ul>

@@ -12,13 +12,10 @@ const Experience = () => {
 
       <div className="education">
         <h1 className="text-2xl">Education</h1>
+        <div>University of Nevada, Las Vegas (Aug. 2021 – Present)</div>
         <div>
-          University of Nevada, Las Vegas (Aug. 2021 – Present) - Pursuing a
-          B.S. in Computer Science
-        </div>
-        <div>
-          University of Nevada, Reno (Aug. 2019 – July 2021) - Pursued a B.S. in
-          Computer Science & Engineering (Transferred)
+          University of Nevada, Reno (Aug. 2019 – July 2021) - Transferred to
+          UNLV
         </div>
       </div>
 

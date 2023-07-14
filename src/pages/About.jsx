@@ -14,10 +14,10 @@ const About = () => {
       </div>
 
       <div>
-        I'm currently a Computer Science major and plan to graduate Fall of
+        I'm currently a Computer Science major and plan to graduate Spring of
         2024. Although I have no internship experience, I have kept myself
         business with either personal projects or help tutor some of my peers. I
-        am excited to see what oppurtunities my future holds though.
+        am excited to see what oppurtunities my future holds.
       </div>
 
       <div>
@@ -31,6 +31,9 @@ const About = () => {
           <li>MongoDB</li>
           <li>C++</li>
           <li>Java</li>
+          <li>VSCode</li>
+          <li>PyCharm</li>
+          <li>Postman</li>
         </ul>
       </div>
     </main>
