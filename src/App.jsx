@@ -6,6 +6,8 @@ import About from './pages/About';
 import Experience from './pages/Experience';
 
 import TagalogLearning from './pages/projectPages/TagalogLearning';
+import Muver from './pages/projectPages/Muver';
+import Lvk9f from './pages/projectPages/Lvk9f';
 import RoutineTracker from './pages/projectPages/RoutineTracker';
 import Omnifood from './pages/projectPages/Omnifood';
 import PigGame from './pages/projectPages/PigGame';
@@ -26,6 +28,8 @@ function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/tagalog-learning" element={<TagalogLearning />} />
+            <Route path="/muver" element={<Muver />} />
+            <Route path="/las-vegas-k9-foundation" element={<Lvk9f />} />
             <Route path="/routine-tracker" element={<RoutineTracker />} />
             <Route path="/omnifood" element={<Omnifood />} />
             <Route path="/pig-game" element={<PigGame />} />

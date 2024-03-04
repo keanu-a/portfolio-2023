@@ -3,6 +3,7 @@ import React from 'react';
 import ProjectHeaderImage from '../../components/ProjectHeaderImage';
 
 import tagalogLearning from '../../assets/tagalog-learning.png';
+import easytagalog from '../../assets/easytagalog.png';
 
 const TagalogLearning = () => {
   return (
@@ -18,7 +19,7 @@ const TagalogLearning = () => {
         <h3 className="text-2xl">Reason for Creating</h3>
         <p>
           I started this project when I made it a goal in 2023 to learn Tagalog.
-          My moms side of the family all speak Tagalog but never got the change
+          My moms side of the family all speak Tagalog but never got the chance
           to learn or get taught it, but this is the year I push myself to do
           it. I my journey in learning, I noticed lot of language learning apps
           like Duolingo didn't offer tagalog, and other apps like Drops just
@@ -28,7 +29,7 @@ const TagalogLearning = () => {
       </div>
 
       <div>
-        <h3 className="text-2xl">Development</h3>
+        <h3 className="text-2xl">2023 Development</h3>
         <p>
           Decided to use Vite to develop the frontend since it is a lot faster
           than create-react-app.
@@ -45,11 +46,50 @@ const TagalogLearning = () => {
       </div>
 
       <div>
-        <h3 className="text-2xl">Tech Stack</h3>
+        <h3 className="text-2xl">2023 Tech Stack</h3>
         <ul>
           <li>Frontend: React, Sass</li>
           <li>Backend: Express, Node, Mongoose</li>
           <li>Database: MongoDB</li>
+          <li>Testing: Postman</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="text-2xl">2024 Development</h3>
+        <p>
+          I decided to change the name to "Easy Tagalog" to make a more correct
+          and catchy company name. I also decided to change the tech stack as
+          technologies started evolving. Although it will make me take longer to
+          make the application, I think it will make me a more well rounded
+          developer.
+        </p>
+        <br />
+        <p>
+          The first big change was switching from React to Next.js, which isn't
+          too big of a change but still had to learn the Next quirks. The next
+          change was switching my backend from Node/Express to the Django REST
+          framework. This is because I wanted to touch up on my python, and I
+          also think Django has more out of the box, robust, and more secure.
+          Lastly, I switched from a nonrelational database MongoDB to PostgreSQL
+          hosted on Amazon RDS. This is because I wanted to touch up on my SQL
+          skills. Since this is my big focus project, I wanted to learn
+          everything in one project even if it will be a learning curve.
+        </p>
+        <p className="text-red">This project is still a work in progress!</p>
+      </div>
+
+      <ProjectHeaderImage
+        image={easytagalog}
+        altText="Easy Tagalog preview picture"
+      />
+
+      <div>
+        <h3 className="text-2xl">2024 Tech Stack</h3>
+        <ul>
+          <li>Frontend: Next.js, TypeScript, Tailwind CSS</li>
+          <li>Backend: Django REST framework</li>
+          <li>Database: PostgreSQL hosted on Amazon RDS, Amazon S3</li>
           <li>Testing: Postman</li>
         </ul>
       </div>

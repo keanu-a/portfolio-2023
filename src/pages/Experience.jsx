@@ -7,6 +7,7 @@ const Experience = () => {
 
       <div className="experience">
         <h1 className="text-2xl">Experience</h1>
+        <div>Undergraduate Teaching Assistant (January 2024 – Present)</div>
         <div>Coding Tutor (April 2022 – July 2022)</div>
       </div>
 
@@ -22,12 +23,15 @@ const Experience = () => {
       <div className="relevant-coursework">
         <h1 className="text-2xl">Relevant Coursework</h1>
         <div>CS 477: Algorithms</div>
+        <div>CS 472: Software Engineering</div>
+        <div>CS 469: Intro to Digital Image Processing</div>
         <div>CS 460: Compiler Construction</div>
         <div>CS 370: Operating Systems</div>
         <div>CS 302: Data Structures</div>
         <div>CS 442: Cloud Computing</div>
         <div>CS 443: Information Assurance</div>
         <div>CS 437: Building Applications in the Cloud</div>
+        <div>CS 422: Intro to Machine Learning</div>
       </div>
 
       <div className="involvement">

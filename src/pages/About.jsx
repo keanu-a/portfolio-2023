@@ -25,11 +25,16 @@ const About = () => {
         <ul className="grid grid-cols-2">
           <li>Python</li>
           <li>JavaScript (ES6+)</li>
+          <li>TypeScript</li>
           <li>React</li>
+          <li>Next.js</li>
           <li>Node</li>
-          <li>Express</li>
+          <li>Express.js</li>
           <li>MongoDB</li>
-          <li>C++</li>
+          <li>PostgreSQL</li>
+          <li>C/C++</li>
+          <li>Amazon S3</li>
+          <li>Amazon RDS</li>
           <li>Java</li>
           <li>VSCode</li>
           <li>PyCharm</li>
