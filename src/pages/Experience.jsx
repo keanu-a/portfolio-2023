@@ -7,13 +7,22 @@ const Experience = () => {
 
       <div className="experience">
         <h1 className="text-2xl">Experience</h1>
-        <div>Undergraduate Teaching Assistant (January 2024 – Present)</div>
-        <div>Coding Tutor (April 2022 – July 2022)</div>
+        <div>
+          The Las Vegas K-9 Foundation: Web Developer (September 2023 - Present)
+        </div>
+        <div>
+          Ntooitive Digital: Project Manager Intern (March 2024 – May 2024)
+        </div>
+        <div>
+          University of Nevada, Las Vegas: Undergraduate Teaching Assistant
+          (January 2024 – May 2024)
+        </div>
+        <div>Freelance: Coding Tutor (April 2022 – July 2022)</div>
       </div>
 
       <div className="education">
         <h1 className="text-2xl">Education</h1>
-        <div>University of Nevada, Las Vegas (Aug. 2021 – Present)</div>
+        <div>University of Nevada, Las Vegas (Aug. 2021 – May 2024)</div>
         <div>
           University of Nevada, Reno (Aug. 2019 – July 2021) - Transferred to
           UNLV
